@@ -1,20 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "ChromeFish",
+  "name": "ChromeBee",
   "version": "1.0",
-  "description": "Make chrome a fishbowl and feed your fish some links",
+  "description": "Hover on links to shake pollen off the flower",
   "content_scripts": [
     {
-     // "matches": ["https://www.wikipedia.org/*"],
       "matches": ["<all_urls>"],
       "js": ["./lib/p5.js","./main.js","./sketch.js"],
       "css": ["./style.css"]
     }
-  ]
-  // "action": {
+  ],
+  "action": {
   //   "default_title": "Title",
-  //   "default_icon": {
-  //     "64": "64.png"
-  //   }
+    "default_icon": "assets/64x.png"
   // }
+}
 }
