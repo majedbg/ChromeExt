@@ -6,13 +6,16 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./lib/p5.js","./main.js","./sketch.js"],
+      "js": ["./lib/p5.js", "./main.js", "./sketch.js"],
       "css": ["./style.css"]
     }
   ],
   "action": {
-  //   "default_title": "Title",
-    "default_icon": "assets/64x.png"
-  // }
-}
+    "default_title": "Title",
+    "default_icon": {
+      "16": "assets/bee.png",
+      "48": "assets/bee.png",
+      "128": "assets/bee.png"
+    }
+  }
 }
