@@ -85,10 +85,16 @@ function setup() {
     beeY = 0;
     newBeeY = 0;
   //clear();
-  beeImgRight = loadImage('https://freight.cargo.site/t/original/i/d46cc91e48359a7c329ad4ff4842a2efea7a7244bda89a9807cdd79d01cd4bba/BeeRight.png');
-  beeImgLeft = loadImage('https://freight.cargo.site/t/original/i/e4e97d79863a2f5fa68db43d2e4e525cb317437fe91d6ed0b125c20ab9ad7b55/BeeLeft.png')
-  flowerImg = loadImage('https://freight.cargo.site/t/original/i/e0632307ee83ce275029d81f7990a4fd0debb16d9d6528e90ac0f6c05879d77e/Flower.png');
-  }
+  //old images:
+  // beeImgRight = loadImage('https://freight.cargo.site/t/original/i/d46cc91e48359a7c329ad4ff4842a2efea7a7244bda89a9807cdd79d01cd4bba/BeeRight.png');
+  // beeImgLeft = loadImage('https://freight.cargo.site/t/original/i/e4e97d79863a2f5fa68db43d2e4e525cb317437fe91d6ed0b125c20ab9ad7b55/BeeLeft.png');
+  // flowerImg = loadImage('https://freight.cargo.site/t/original/i/e0632307ee83ce275029d81f7990a4fd0debb16d9d6528e90ac0f6c05879d77e/Flower.png');
+  
+  //new images:
+  beeImgLeft = loadImage('https://freight.cargo.site/t/original/i/198a86c2fc4f9e8a0b6b9555f0eb7f5913cac00c2ffbb52e5d41ce4e378206e8/BeeLeft_1.png');
+  beeImgRight = loadImage('https://freight.cargo.site/t/original/i/54df8e2518fa95b162aee751299bdecb54d1f73876f6424d66259b610a01c6ba/BeeRight_1.png');
+  flowerImg = loadImage('https://freight.cargo.site/t/original/i/5394c6f16b47a6bc7349293aa3fe478f48ba33b9391643fc54394d71b0018f45/Flower2.png');
+}
   
 function draw() {
   clear(); //clear board
